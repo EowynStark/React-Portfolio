@@ -10,7 +10,9 @@ function Contact() {
         const { name, value } = e.target;
         setFormData({
             ...formData,
-            [name]: value
+            [name]: value,
+            [email]: value,
+            [message]: value
         });
     };
     const handleSubmit = (e) => {
