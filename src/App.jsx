@@ -1,30 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
-import './App.css'
-import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <Router>
-      <div className='App'>
-        <Navigation />
-        <Header />
-        <Route exact path='/' component={About} />
-        <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/contact' component={Contact} />
-        <Route exact path='/resume' component={Resume} />
+    <div className='p-3 mb-2 bg-warning text-dark'>
+        <Navigation>
+        <Header>
+          <main className='mx-auto'>
+            <Outlet />
+          </main>
+        </Header>
+        </Navigation>
         <Footer />
-        {/* add further paths once the files are built out */}
-        </div>
-    </Router>
+  
+    </div>
   );
 }
 

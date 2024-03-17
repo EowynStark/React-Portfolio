@@ -2,89 +2,89 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section id='resume'>
+        <div id='resume'>
             <h2>Resume</h2>
             <div className='resume'>
-                <div className='proficiencies'>
-                <h3>Front-end Proficiencies</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Bootstrap</li>
+                <div className='card'>
+                <h3 className='card-title'>Front-end Proficiencies</h3>
+                <ul className='list-group list-group-horizontal'>
+                    <li className='list-group-item'>HTML</li>
+                    <li className='list-group-item'>CSS</li>
+                    <li className='list-group-item'>JavaScript</li>
+                    <li className='list-group-item'>React</li>
+                    <li className='list-group-item'>Bootstrap</li>
                 </ul>
                 </div>
-                <div className='proficiencies'>
-                <h3>Back-end Proficiencies</h3>
-                <ul>
-                    <li>APIs</li>
-                    <li>Node</li>
-                    <li>Express</li>
-                    <li>MySQL, Sequelize</li>
-                    <li>MongoDB, Mongoose</li>
-                    <li>REST</li>
+                <div className='card'>
+                <h3 className='card-title'>Back-end Proficiencies</h3>
+                <ul className='list-group list-group-horizontal'>
+                    <li className='list-group-item'>APIs</li>
+                    <li className='list-group-item'>Node</li>
+                    <li className='list-group-item' >Express</li>
+                    <li className='list-group-item'>MySQL, Sequelize</li>
+                    <li className='list-group-item'>MongoDB, Mongoose</li>
+                    <li className='list-group-item'>REST</li>
                 </ul>
                 </div>
-                <div className='proficiencies'>
-                <h3>Dev Tools</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>Webpack</li>
-                    <li>Babel</li>
-                    <li>Jest</li>
-                    <li>npm</li>
+                <div className='card'>
+                <h3 className='card-title'>Dev Tools</h3>
+                <ul className='list-group list-group-horizontal'>
+                    <li className='list-group-item'>Git</li>
+                    <li className='list-group-item'>Webpack</li>
+                    <li className='list-group-item'>Babel</li>
+                    <li className='list-group-item'>Jest</li>
+                    <li className='list-group-item' >npm</li>
                 </ul>
                 </div>
                 <div className='work-history'>
                 <h3>Work History</h3>
-                <div className='job'>
-                <h4>InterSign Corp -- Customer Service Rep</h4>
-                <ul>
-                    <li>2024- Present</li>
-                    <li>Assist customers with technical support and ordering products</li>
-                    <li>Handle inbound customer inquiries</li>
-                    <li>Provide excellent customer service</li>
+                <div className='card'>
+                <h4 className='card-title'>InterSign Corp -- Customer Service Rep</h4>
+                <ul className='list-group list-group-flush'>
+                    <li className='list-group-item'>2024- Present</li>
+                    <li className='list-group-item'>Assist customers with technical support and ordering products</li>
+                    <li className='list-group-item'>Handle inbound customer inquiries</li>
+                    <li className='list-group-item'>Provide excellent customer service</li>
                 </ul>
                 </div>
-                <div className='job'>
-                <h4>USPS -- Retail Clerk</h4>
-                <ul>
-                    <li>2017-2023</li>
-                    <li>Assisted customers with shipping and mailing needs</li>
-                    <li>Managed high volume of mail with dedicated time restrictions</li>
-                    <li>Handled cash and credit transactions</li>
-                    <li>Adhered to standard policies for data protection and mailing standards</li>
+                <div className='card'>
+                <h4 className='card-title'>USPS -- Retail Clerk</h4>
+                <ul className='list-group list-group-flush'>
+                    <li className='list-group-item'>2017-2023</li>
+                    <li className='list-group-item'>Assisted customers with shipping and mailing needs</li>
+                    <li className='list-group-item'>Managed high volume of mail with dedicated time restrictions</li>
+                    <li className='list-group-item'>Handled cash and credit transactions</li>
+                    <li className='list-group-item'>Adhered to standard policies for data protection and mailing standards</li>
                 </ul>
                 </div>
-                <div className='job'>
-                <h4>Ibex Global LLC -- Customer Servive Rep</h4>
-                <ul>
-                    <li>2017</li>
-                    <li>Assisted customers with technical support</li>
-                    <li>Handled inbound customer inquiries</li>
-                    <li>Provided excellent customer service</li>
+                <div className='card'>
+                <h4 className='card-title'>Ibex Global LLC -- Customer Servive Rep</h4>
+                <ul className='list-group list-group-flush'>
+                    <li className='list-group-item'>2017</li>
+                    <li className='list-group-item'>Assisted customers with technical support</li>
+                    <li className='list-group-item'>Handled inbound customer inquiries</li>
+                    <li className='list-group-item'>Provided excellent customer service</li>
                 </ul>
                 </div>
                 </div>
                 <div className='education'>
                 <h3>Education Background</h3>
-                <div className='education-info'>
-                <ul>
-                    <li>Indiana University, Bloomington IN</li>
-                    <li>Bachelors of Arts</li>
-                    <li>Double Major: English/History</li>
+                <div className='card'>
+                <ul className='list-group list-group-flush'>
+                    <li className='list-group-item'>Indiana University, Bloomington IN</li>
+                    <li className='list-group-item'>Bachelors of Arts</li>
+                    <li className='list-group-item'>Double Major: English/History</li>
                 </ul>
                 </div>
-                <div className='education-info'>
-                <ul>
-                    <li>Vanderbuilt University, Nashville TN</li>
-                    <li>Full Stack Web Development</li>
+                <div className='card'>
+                <ul className='list-group list-group-flush'>
+                    <li className='list-group-item'>Vanderbuilt University, Nashville TN</li>
+                    <li className='list-group-item'>Full Stack Web Development</li>
                 </ul>
                 </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 
