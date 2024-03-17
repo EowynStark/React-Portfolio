@@ -6,6 +6,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 // add further paths once the files are built out
 import './App.css'
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resume' component={Resume} />
+        <Footer />
         {/* add further paths once the files are built out */}
         </div>
     </Router>
