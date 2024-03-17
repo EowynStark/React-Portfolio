@@ -7,8 +7,9 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-// add further paths once the files are built out
 import './App.css'
+import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
