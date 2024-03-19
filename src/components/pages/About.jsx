@@ -1,8 +1,9 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
     return (
-        <section id="about">
+        <div className='p-3 mb-2 bg-warning text-dark'>
             <h2>About Me</h2>
             <div className="about-content">
                 <div className="about-text">
@@ -12,8 +13,8 @@ function About() {
                     </p>
                 </div>
             </div>
-        </section>
-    );
+        </div>
+     );
 }
 
 export default About;
