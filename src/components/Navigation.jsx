@@ -2,8 +2,8 @@ import React from 'react';
 
 function Navigation({currentPage, handlePageChange}) {
     return (
-        <div>
-            <ul className="nav nav-tabs">
+        <div className='bg-warning'>
+            <ul className="p-3 mb-2 bg-warning text-dark nav nav-tabs">
                 <li className="nav-item">
                     <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
                 </li>
