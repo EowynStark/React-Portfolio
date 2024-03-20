@@ -1,8 +1,19 @@
-# React + Vite
+# React-Portfolio
+This is a react webpage designed to showcase a full-stack developer's portfolio.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This single page app is designed to dynamically show a full-stack developer's portfolio in order to better showcase their skills. When a potential employer or fellow developer visits this app they can see a live action example of the skills of the portfolio's maker. There is a contact page that will be functional when the developer adopts the skills to merge them into the live codebase.
+Using react demonstrates the fullstack skill set that the developer has accumulated over the course of their study. 
 
-Currently, two official plugins are available:
+## Author/ Credits
+Original sourcecode written by <a href='https://github.com/EowynStark'> Andria Jean </a> with help from course materials and outside research of functional documentation. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage/ Installation
+Intended use to visually represent the skill set of an aspiring developer. 
+
+live link found <a href='https://fabulous-blini-c512dd.netlify.app/'> here </a>.
+
+## Version History
+Version 1.0 deployed 3/20/2024
+
+Stay tuned for updates to content and style
