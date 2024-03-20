@@ -3,6 +3,12 @@ import React from 'react';
 function Portfolio() {
     const projects = [
         {
+            name: 'TableTop Ties App', 
+            description: 'This is an online app for like-minded gamers to find events where they can play their favorite games of various genres such as TTRPG, strategy or TCG.',
+            link: 'https://desolate-coast-16417-f21d4a060ca1.herokuapp.com/',
+            repo: 'https://github.com/Gerlach0130/tabletop-ties'
+        },
+        {
             name: 'Work Day Schedule App',
             description: 'This application is designed to allow a user to add any events to any block of time in a given day.',
             link: 'https://eowynstark.github.io/Work-Day-Scheduler/',
@@ -17,8 +23,8 @@ function Portfolio() {
         {
             name: 'Employee Tracker App',
             description: 'This application is designed to help a user who owns a business keep track of their employees in a dynamic way. (Backend Development only)',
-            link: 'https://app.screencastify.com/v3/watch/dKFeWYgznS7GBTtrvOrw', // add link to deployed project
-            repo: 'https://github.com/EowynStark/Employee-Tracker' // add link to GitHub repo
+            link: 'https://app.screencastify.com/v3/watch/dKFeWYgznS7GBTtrvOrw',
+            repo: 'https://github.com/EowynStark/Employee-Tracker'
         },
     ];
     return (
