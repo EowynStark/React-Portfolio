@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import imageSrc from 'public\download20231004145455.png';
+
 function About() {
     return (
         <div className='p-3 mb-2 bg-warning text-dark'>
@@ -8,7 +8,7 @@ function About() {
             <div className="about-content">
                 <div className="about-text">
                     <div className='card' style={{width: '18rem' }}>
-                    <img src={imageSrc} className='bg-warning card-img-top' alt='Andria Jean' />
+                    <img src='https://raw.githubusercontent.com/EowynStark/React-Portfolio/main/public/download20231004145455.png' className='bg-warning card-img-top' alt='Andria Jean' />
                     </div>
                     <div className='card bg-warning text-center text-dark' style={{width:'30rem'}}>
                     <p>Welcome to my portfolio! Explore my page to get to know me and what I can bring to the virtual table.</p>
