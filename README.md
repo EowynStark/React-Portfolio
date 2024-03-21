@@ -17,3 +17,5 @@ live link found <a href='https://fabulous-blini-c512dd.netlify.app/'> here </a>.
 Version 1.0 deployed 3/20/2024
 
 Stay tuned for updates to content and style
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ebd58393-87d9-4272-9a0e-f79f0b2b686f/deploy-status)](https://app.netlify.com/sites/fabulous-blini-c512dd/deploys)
