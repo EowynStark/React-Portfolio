@@ -8,7 +8,7 @@ function About() {
             <div className="about-content">
                 <div className="about-text">
                     <div className='card' style={{width: '18rem' }}>
-                    <img src='./public/download20231004145455.png' className='card-img-top' alt='Andria Jean' />
+                    <img src='../public/download20231004145455.png' className='card-img-top' alt='Andria Jean' />
                     </div>
                     <div className='card bg-warning text-center text-dark' style={{width:'30rem'}}>
                     <p>Welcome to my portfolio! Explore my page to get to know me and what I can bring to the virtual table.</p>
