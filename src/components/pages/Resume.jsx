@@ -79,7 +79,7 @@ function Resume() {
                 </div>
                 <div className='bg-warning card'>
                 <ul className='bg-warning list-group list-group-flush'>
-                    <li className='bg-warning list-group-item'>Vanderbuilt University, Nashville TN</li>
+                    <li className='bg-warning list-group-item'>Vanderbilt University, Nashville TN</li>
                     <li className='bg-warning list-group-item'>Full Stack Web Development</li>
                 </ul>
                 </div>
